@@ -17,8 +17,11 @@
         .wrapper {
             width: 80%;
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 40px auto;
             padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
         }
 
         h1, h2, h3 {
@@ -50,44 +53,6 @@
             margin-bottom: 40px;
         }
 
-        /* Skills Section Styling */
-        .skill-bar {
-            margin-bottom: 20px;
-        }
-
-        .skill-title {
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        .bar-container {
-            width: 100%;
-            background-color: #fff;
-            border-radius: 10px;
-            overflow: hidden;
-            height: 30px;
-            position: relative;
-        }
-
-        .bar {
-            height: 100%;
-            border-radius: 10px;
-            background-color: #045ba9;
-            position: absolute;
-        }
-
-        .bar.branding {
-            width: 90%;
-        }
-
-        .bar.web-dev {
-            width: 80%;
-        }
-
-        .bar.marketing {
-            width: 75%;
-        }
-
     </style>
 </head>
 <body>
@@ -114,30 +79,13 @@
     <!-- Skills Section -->
     <section class="section">
         <h2>Skills</h2>
-        
-        <!-- Branding Skill -->
-        <div class="skill-bar">
-            <div class="skill-title">Brand Design</div>
-            <div class="bar-container">
-                <div class="bar branding"></div>
-            </div>
-        </div>
-
-        <!-- Web Development Skill -->
-        <div class="skill-bar">
-            <div class="skill-title">Web Development</div>
-            <div class="bar-container">
-                <div class="bar web-dev"></div>
-            </div>
-        </div>
-
-        <!-- Marketing Skill -->
-        <div class="skill-bar">
-            <div class="skill-title">Marketing</div>
-            <div class="bar-container">
-                <div class="bar marketing"></div>
-            </div>
-        </div>
+        <ul>
+            <li>Brand Design</li>
+            <li>Web Development</li>
+            <li>Marketing</li>
+            <li>Project Management</li>
+            <li>Team Leadership</li>
+        </ul>
     </section>
 
     <div class="divider"></div>
